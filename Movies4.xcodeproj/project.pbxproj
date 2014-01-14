@@ -21,6 +21,9 @@
 		697BF2CB18851FA60082E758 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697BF2AD18851FA60082E758 /* UIKit.framework */; };
 		697BF2D318851FA60082E758 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 697BF2D118851FA60082E758 /* InfoPlist.strings */; };
 		697BF2D518851FA60082E758 /* Movies4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BF2D418851FA60082E758 /* Movies4Tests.m */; };
+		697BF2E0188520E70082E758 /* MoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BF2DF188520E70082E758 /* MoviesTableViewController.m */; };
+		697BF2E31885213F0082E758 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BF2E21885213F0082E758 /* MovieCell.m */; };
+		697BF2E9188524310082E758 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BF2E8188524310082E758 /* Movie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		697BF2D018851FA60082E758 /* Movies4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Movies4Tests-Info.plist"; sourceTree = "<group>"; };
 		697BF2D218851FA60082E758 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		697BF2D418851FA60082E758 /* Movies4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movies4Tests.m; sourceTree = "<group>"; };
+		697BF2DE188520E70082E758 /* MoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesTableViewController.h; sourceTree = "<group>"; };
+		697BF2DF188520E70082E758 /* MoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesTableViewController.m; sourceTree = "<group>"; };
+		697BF2E11885213F0082E758 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		697BF2E21885213F0082E758 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		697BF2E7188524310082E758 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		697BF2E8188524310082E758 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				697BF2BF18851FA60082E758 /* ViewController.m */,
 				697BF2C118851FA60082E758 /* Images.xcassets */,
 				697BF2B018851FA60082E758 /* Supporting Files */,
+				697BF2DE188520E70082E758 /* MoviesTableViewController.h */,
+				697BF2DF188520E70082E758 /* MoviesTableViewController.m */,
+				697BF2E11885213F0082E758 /* MovieCell.h */,
+				697BF2E21885213F0082E758 /* MovieCell.m */,
+				697BF2E7188524310082E758 /* Movie.h */,
+				697BF2E8188524310082E758 /* Movie.m */,
 			);
 			path = Movies4;
 			sourceTree = "<group>";
@@ -249,6 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697BF2E9188524310082E758 /* Movie.m in Sources */,
+				697BF2E0188520E70082E758 /* MoviesTableViewController.m in Sources */,
+				697BF2E31885213F0082E758 /* MovieCell.m in Sources */,
 				697BF2C018851FA60082E758 /* ViewController.m in Sources */,
 				697BF2BA18851FA60082E758 /* AppDelegate.m in Sources */,
 				697BF2B618851FA60082E758 /* main.m in Sources */,
